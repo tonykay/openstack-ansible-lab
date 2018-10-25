@@ -1,0 +1,7 @@
+---
+- name: generate openstack in-memory inventory 
+  hosts: jumpbox
+  gather_facts: true
+  roles:
+  - name: osp-facts
+
